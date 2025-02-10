@@ -283,7 +283,7 @@ label .close_btn {
     font-size: 17px;
 }
 
-/* Skills Us Section */
+/* Skills Section */
 .skills {
     background: var(--light-gray-color);
     padding: 60px 20px 120px;
@@ -324,7 +324,7 @@ label .close_btn {
     font-size: 17px;
 }
 
-/* Project Section */
+/* Projects Section */
 .project {
     background: var(--white-color);
     padding: 60px 20px 100px;
