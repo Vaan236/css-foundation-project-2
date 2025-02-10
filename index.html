@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box Icon Link for Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header & Navbar Section -->
+    <header>
+      <nav>
+        <div class="nav_logo">
+          <a href="#">
+            <img src="images/control_logo.png" alt="control Logo" />
+            <h2>VCM</h2>
+          </a>
+        </div>
+
+        <input type="checkbox" id="click" />
+        <label for="click">
+          <i class="menu_btn bx bx-menu"></i>
+          <i class="close_btn bx bx-x"></i>
+        </label>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#certificate">Certificates</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero_section">
+      <div class="section_container">
+        <div class="hero_container">
+          <div class="text_section">
+            <h2>Welcome to My Creative Space</h2>
+            <h3>Exploring Web and Game Development, One Project at a Time</h3>
+            <p>
+              Hey, I'm Van, an aspiring full-stack and game developer. 
+              Check out my website!
+            </p>
+
+            <!-- <div class="hero_section_button">
+              <button class="button">Order Online</button>
+              <button class="button">Book A Table</button>
+            </div> -->
+          </div>
+
+          <div class="image_section">
+            <img src="images/profile_pic.jpg" alt="van picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about_me" id="about">
+      <div class="section_container">
+        <div class="about_container">
+          <div class="text_section">
+            <h2 class="section_title">About Me</h2>
+            <p>
+              My name is Van William C. Manlapaz, I’m an aspiring full-stack and game developer, passionate 
+              about creating engaging websites and simple, fun games. I enjoy turning ideas 
+              into reality through clean, efficient code and creative design. Let’s build 
+              something amazing together!"
+            </p>
+          </div>
+
+          <div class="image_section">
+            <img src="images/programmer.gif" alt="programmer" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="certificates" id="certificate">
+      <h2 class="section_title">My Certificate</h2>
+      <div class="section_container">
+        <div class="certificates_container">
+          <div class="certificates_items">
+            <img src="images/certificate1.png" alt="vscode certificate" />
+            <div class="certificates_text">
+              <h3>Introduction to Visual Studio Code</h3>
+              <p>January 24, 2025</p>
+            </div>
+          </div>
+          <div class="certificates_items">
+            <img src="images/certificate2.png" alt="webdev certificate" />
+            <div class="certificates_text">
+              <h3>Getting started with Web Development</h3>
+              <p>January 23, 2025</p>
+            </div>
+          </div>
+          <div class="certificates_items">
+            <img src="images/certificate3.png" alt="chat-gpt certificate" />
+            <div class="certificates_text">
+              <h3>Introduction to Chat-GPT - A Practical Approach</h3>
+              <p>January 19, 2025</p>
+            </div>
+          </div>
+          <div class="certificates_items">
+            <img src="images/certificate4.png" alt="git-and-github certificate" />
+            <div class="certificates_text">
+              <h3>Introduction to Git and Github</h3>
+              <p>
+                January 23, 2025.
+              </p>
+            </div>
+          </div>
+          <div class="certificates_items">
+            <img
+              src="images/certificate5.png"
+              alt="microsoft-basics certificate"
+            />
+            <div class="certificates_text">
+              <h3>LCT Computer Basics with Miscrosoft</h3>
+              <p>January 21, 2025</p>
+            </div>
+          </div>
+          <!-- <div class="services_items">
+            <img src="images/dessert.png" alt="Desserts" />
+            <div class="services_text">
+              <h3>Desserts</h3>
+              <p>
+                This for sure would satiate your palate and take you on a
+                culinary treat.
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="skills" id="skill">
+      <h2 class="section_title">My Skills</h2>
+      <div class="section_container">
+        <div class="skills_container">
+          <div class="skills_items">
+            <img src="images/computer_logo.png" alt="computer logo" />
+            <div class="skills_text">
+              <h3>Computer Proficiency</h3>
+              <p>
+                Skilled in navigating and utilizing various software applications and tools to efficiently complete tasks and solve technical challenges.
+              </p>
+            </div>
+          </div>
+          <div class="skills_items">
+            <img src="images/coding_logo.png" alt="code logo" />
+            <div class="skills_text">
+              <h3>Basic Programming</h3>
+              <p>
+                Experienced in writing, debugging, and optimizing code using foundational programming languages to develop functional and creative solutions.
+              </p>
+            </div>
+          </div>
+          <div class="skills_items">
+            <img src="images/time_logo.png" alt="skills logo" />
+            <div class="skills_text">
+              <h3>Time Management</h3>
+              <p>
+                Adept at prioritizing tasks, meeting deadlines, and balancing multiple responsibilities effectively to achieve goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="project" id="projects">
+      <h2 class="section_title">Projects</h2>
+      <div class="section_container">
+        <div class="project_container">
+          <div class="project_items">
+            <a href="https://vaan236.github.io/CSS-Foundation-Project-1/" target="_blank">
+              <img src="images/Bilihin.ph.png" alt="Gallery Image" />
+            </a>
+            <p><Strong>Bilihin.ph</Strong></p>
+          </div>
+
+          <div class="project_items">
+            <a href="https://drive.google.com/file/d/1_69J0Ymo1KOBA31bAW5rMCpflx29czYB/view?usp=drive_link" target="_blank">
+              <img src="images/Jumper.png" alt="Gallery Image">
+            </a>
+            <p><strong>Jumper Game</strong></p>
+          </div>
+          <div class="project_items">
+            <a href="https://vaan236.github.io/landing-page/" target="_blank">
+              <img src="images/odin_landing_page.png" alt="Gallery Image" />
+            </a>
+            <p><strong>Landing Page Anime</strong></p>
+          </div>
+          <div class="project_items">
+            <a href="https://drive.google.com/file/d/1gEtuDQuwvRqBpGel9oRHl-Nh0JV0-7cY/view?usp=drive_link" target="_blank">
+              <img src="images/calico_cat.png" alt="Gallery Image" />
+              <p><strong>Calico the Cat</strong></p>
+            </a>
+          </div>
+          <div class="project_items">
+            <a href="https://drive.google.com/file/d/1srn52HSDht8lTJOUjHEm8D4I28gcnT_H/view?usp=drive_link" target="_blank">
+              <img src="images/rpg_game.png" alt="Gallery Image" />
+            </a>
+            <p><strong>ARPG Game</strong></p>
+          </div>
+          <div class="project_items">
+            <a href="https://drive.google.com/file/d/1VJIvyPawyt5gBHLYJi7shpEoFuxLKlU_/view?usp=drive_link" target="_blank">
+              <img src="images/runner.png" alt="Gallery Image" />
+              <p><strong>Cyber Runner</strong></p>
+            </a>
+          </div>
+        </div>
+        <div class="click"><p><Strong>Click the picture to view the project.</Strong></p></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="section_title">Contact Us</h2>
+      <div class="section_container">
+        <div class="contact_container">
+          <div class="contact_form">
+            <form action="#">
+              <div class="field">
+                <label for="Name">Full Name</label>
+                <input type="text" id="Name" placeholder="Your Name" required />
+              </div>
+              <div class="field">
+                <label for="email">Your Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <!-- <div class="field">
+                <label for="number">Your Number</label>
+                <input
+                  type="number"
+                  id="number"
+                  placeholder="Your Contact Number"
+                  required
+                />
+              </div> -->
+              <div class="field">
+                <label for="textarea">Textarea</label>
+                <textarea
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <button class="button" id="submit">Submit</button>
+            </form>
+          </div>
+
+          <div class="contact_text">
+            <div class="contact_items">
+              <i class="bx bx-current-location"></i>
+              <div class="contact_details">
+                <h3>My Location</h3>
+                <p>Marikina, Philippines</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-envelope"></i>
+              <div class="contact_details">
+                <h3>My Email</h3>
+                <p>vanmanlapaz@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-phone-call"></i>
+              <div class="contact_details">
+                <h3>My Number</h3>
+                <p>+63 9524762603</p>
+              </div>
+            </div>
+            <!-- <div class="contact_items">
+              <i class="bx bxs-time-five"></i>
+              <div class="contact_details">
+                <h3>Our Timing</h3>
+                <p>Mon-Sun : 10:00 AM - 7:00 PM</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="section_container">
+        <div class="footer_section">
+          <div class="footer_logo">
+            <a href="index.html">
+              <img src="images/control_logo.png" alt="Coffee Logo" />
+              <h2>VCM</h2>
+            </a>
+          </div>
+
+          <div class="useful_links">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#certificate">Certificate</a></li>
+              <li><a href="#skill">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="contact_us">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                <i class="bx bx-current-location"></i>
+                <span>Marikina, Philippines</span>
+              </li>
+              <li>
+                <i class="bx bxs-phone-call"></i> <span>+63 9524762603</span>
+              </li>
+              <!-- <li>
+                <i class="bx bxs-time-five"></i>
+                <span>Mon-Sun : 10:00 AM - 7:00 PM</span>
+              </li> -->
+            </ul>
+          </div>
+
+          <div class="follow_us">
+            <h3>Follow</h3>
+            </i><a href="https://www.facebook.com/van.c.manlapaz/"  target="_blank"><i class="bx bxl-facebook-circle"></i></a>
+            <a href="https://x.com/vanmanlapaz" target="_blank"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/vanchiing/"><i class="bx bxl-instagram-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
